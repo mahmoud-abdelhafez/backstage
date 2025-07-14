@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: EndOfLife
+metadata:
+  name: some-angular-nginx-component
+  description: Angular app served with nginx
+spec:
+  target: nginx
+  targetRelease: "1.24.0"
+  componentRef: component:default/some-angular-nginx-component
