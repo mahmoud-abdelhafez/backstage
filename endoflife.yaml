@@ -1,0 +1,6 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: some-angular-nginx-component
+  annotations:
+    endoflife.date/products: angular@17,nginx@1.25
