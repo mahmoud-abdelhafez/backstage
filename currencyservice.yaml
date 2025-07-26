@@ -6,7 +6,7 @@ metadata:
   description: Converts one money amount to another currency
   tags:
     - currencyservice
-    - nodejs
+    - node-js
   annotations:
     github.com/project-slug: https://github.com/GoogleCloudPlatform/microservices-demo/tree/main/src/frontend
     backstage.io/kubernetes-id: currencyservice
