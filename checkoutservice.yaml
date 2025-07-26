@@ -15,4 +15,8 @@ spec:
   owner: team-4
   lifecycle: production
   partOf: system:default/onlineboutique
-  dependsOn: ['resource:onlineboutique:playground']
+  dependsOn:
+    - component:default/email
+    - component:default/payment
+    - component:default/shipping
+    - component:default/productcatalog

@@ -15,4 +15,6 @@ spec:
   owner: team-4
   lifecycle: production
   partOf: system:default/onlineboutique
-  dependsOn: ['resource:onlineboutique:playground']
+  dependsOn:
+    - resource:default/redis
+
