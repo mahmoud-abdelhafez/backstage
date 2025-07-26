@@ -8,5 +8,4 @@ spec:
   profile:
     displayName: Team Frontend
     email: team-frontend@example.com
-  members: []
-  children: []# Optional: add users here
+  children: []
