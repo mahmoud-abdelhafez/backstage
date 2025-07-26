@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-frontend
+  description: The frontend development team
+spec:
+  type: team
+  profile:
+    displayName: Team Frontend
+    email: team-frontend@example.com
+  members: []  # Optional: add users here

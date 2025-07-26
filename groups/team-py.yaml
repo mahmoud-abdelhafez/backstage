@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-js
+  description: The python development team
+spec:
+  type: team
+  profile:
+    displayName: Team python
+    email: team-py@example.com
+  members: []  # Optional: add users here

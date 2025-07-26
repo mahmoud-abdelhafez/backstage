@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-4
+  description: The go development team
+spec:
+  type: team
+  profile:
+    displayName: Team 4
+    email: team-4@example.com
+  members: []  # Optional: add users here
