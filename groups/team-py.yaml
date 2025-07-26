@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: team-js
+  name: team-py
   description: The python development team
 spec:
   type: team
