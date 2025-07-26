@@ -1,1 +1,17 @@
-
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cartservice
+  description: Stores the items in the users shopping cart in Redis and retrieves it.
+  tags:
+    - cartservice
+    - c
+  annotations:
+    github.com/project-slug: https://github.com/GoogleCloudPlatform/microservices-demo/tree/main/src/cartservice
+    backstage.io/kubernetes-id: cartservice
+    backstage.io/kubernetes-namespace: onlineboutique
+spec:
+  type: service
+  owner: team-4
+  lifecycle: production
+  dependsOn: ['resource:onlineboutique:playground']
