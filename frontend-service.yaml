@@ -14,7 +14,7 @@ spec:
   type: service
   owner: team-frontend
   lifecycle: production
-  partOf: system:default/onlineboutique
+  partOf: system:onlineboutique
   dependsOn:
     - component:adservices
     - component:cartservice
