@@ -8,4 +8,5 @@ spec:
   profile:
     displayName: Team 4
     email: team-4@example.com
-  members: []  # Optional: add users here
+  members: []
+  children: []# Optional: add users here
