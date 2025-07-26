@@ -9,4 +9,4 @@ spec:
     displayName: Team js
     email: team-js@example.com
   members: []
-  children: []# Optional: add users here
+  children: []
