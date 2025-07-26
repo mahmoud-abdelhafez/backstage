@@ -14,7 +14,7 @@ spec:
   type: service
   owner: team-4
   lifecycle: production
-  partOf: system:default/onlineboutique
+  partOf: system:onlineboutique
   dependsOn:
-    - resource:default/redis
+    - resource:redis
 
