@@ -16,11 +16,9 @@ spec:
   lifecycle: production
   partOf: system:default/onlineboutique
   dependsOn:
-    - component:default/ad
-    - component:default/cart
-    - component:default/checkout
-    - component:default/currency
-    - component:default/email
-    - component:default/payment
-    - component:default/productcatalog
-    - component:default/recommendation
+    - component:adservices
+    - component:cartservice
+    - component:checkoutservice
+    - component:recommendationservice
+    - component:productcatalogservice
+    - component:paymentservice
