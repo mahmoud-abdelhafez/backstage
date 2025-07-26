@@ -14,4 +14,5 @@ spec:
   type: service
   owner: team-py
   lifecycle: production
+  partOf: system:default/onlineboutique
   dependsOn: ['resource:onlineboutique:playground']
