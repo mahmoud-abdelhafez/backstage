@@ -1,4 +1,3 @@
-https://github.com/GoogleCloudPlatform/microservices-demo/tree/main/src/frontend
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
