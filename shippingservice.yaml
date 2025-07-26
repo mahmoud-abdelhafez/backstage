@@ -1,1 +1,17 @@
-
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: shippingservice
+  description: Gives shipping cost estimates based on the shopping cart. Ships items to the given address (mock)
+  tags:
+    - shippingservice
+    - go
+  annotations:
+    github.com/project-slug: https://github.com/GoogleCloudPlatform/microservices-demo/tree/main/src/shippingservice
+    backstage.io/kubernetes-id: shippingservice
+    backstage.io/kubernetes-namespace: onlineboutique
+spec:
+  type: service
+  owner: team-4
+  lifecycle: production
+  dependsOn: ['resource:onlineboutique:playground']
