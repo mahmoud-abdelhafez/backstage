@@ -14,4 +14,9 @@ spec:
   type: service
   owner: team-frontend
   lifecycle: production
-  dependsOn: ['resource:onlineboutique:playground']
+    dependsOn:
+      - component:default/adservice
+      - component:default/cartservice
+      - component:default/currencyservice
+      - component:default/checkoutservice
+      - component:default/recommendationservice
