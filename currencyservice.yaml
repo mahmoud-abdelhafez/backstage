@@ -11,6 +11,7 @@ metadata:
     github.com/project-slug: https://github.com/GoogleCloudPlatform/microservices-demo/tree/main/src/frontend
     backstage.io/kubernetes-id: currencyservice
     backstage.io/kubernetes-namespace: onlineboutique
+    prometheus.io/rule: memUsage|component,node_memory_active_bytes|instance,sum by (instance) (node_cpu_seconds_total)
 spec:
   type: service
   owner: team-js
